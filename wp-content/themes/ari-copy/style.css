@@ -1,0 +1,75 @@
+/*
+Theme Name: ari-child
+Template: ari
+Version: 1.0.0
+Text Domain: ari-child
+*/
+@import url('../ari/style.css');
+
+.page-header{
+  display: none;
+}
+h2.entry-title{
+  border-radius: 3px 3px 0px 0px;
+  background-color:blue;
+}
+
+
+.profile{
+  height:400px;
+  background-color: #3D3D3D;
+  width:30%;
+  padding:0 10px 0 0;
+  margin:1%;
+  min-width: 300px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid white;
+
+}
+
+.accueil{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.accueil-ul{
+  text-align: left;
+}
+
+.cfa-text{
+  text-align: left;
+}
+
+.contact{
+  display: inline-block;
+  width: 100%;
+
+
+}
+
+.ninja-forms-all-fields-wrap{
+  width: 50%;
+  min-width: 300px;
+
+}
+#wpgmza_map{
+  border-radius: 5px;
+  border:1px solid white;
+
+
+}
+.tab-content li{
+  border-bottom: 0px solid;
+}
+.tab-content > .active{
+  border: 0px;
+}
+.tab-content>.tab-pane{
+  margin: 0px;
+  color: white;
+
+}
+.nav-tabs>li>a{
+  padding: 10px 10px;
+}

@@ -17,16 +17,66 @@ h2.entry-title{
 
 .profile{
   height:400px;
-  background-color: #3D3D3D;
+  background-color: white;
   width:30%;
   padding:0 10px 0 0;
   margin:1%;
   min-width: 300px;
   display: inline-block;
   border-radius: 5px;
-  border: 1px solid white;
+
 
 }
+
+.profile > ul > li > a {
+  color: grey;
+}
+#pro{
+  border: 1px solid #575095;
+
+}
+#pro > h3{
+  color:#575095;
+}
+#pro > p > a{
+  color:#575095;
+  border-color:#575095;
+}
+#ado{
+  border: 1px solid #f68b26;
+
+}
+#parent{
+  border: 1px solid #32903f;
+}
+#ado > h3{
+  color:#f68b26;
+
+}
+#ado > p  > a{
+  color:#f68b26;
+  border-color: #f68b26;
+
+}
+
+#parent > h3{
+  color: #32903f;
+}
+#parent >p >a{
+  color: #32903f;
+  border-color: #32903f;
+}
+
+#menu-item-37 a:hover{
+    background-color: #32903f;
+}
+#menu-item-36 a:hover{
+    background-color: #575095;
+}
+#menu-item-38 a:hover{
+    background-color:#f68b26;
+  }
+
 
 .accueil{
   text-align: center;
@@ -58,4 +108,50 @@ h2.entry-title{
   border:1px solid white;
 
 
+}
+.tab-content li{
+  border-bottom: 0px solid;
+}
+.tab-content > .active{
+  border: 0px;
+}
+.tab-content>.tab-pane{
+  margin: 0px;
+  color: white;
+
+}
+.nav-tabs>li>a{
+  padding: 10px 10px;
+}
+
+
+/*pages adults */
+.parents >.nav-tabs>li >a{
+  color: #32903f;
+}
+.parents {
+  color:#32903f;
+}
+.parents a{
+  color:#32903f;
+}
+.parents > div > ul > li.active> a{
+  background-color: #32903f;
+  color:white;
+}
+.parents > div > ul > li.active> a:hover{
+  background-color: #32903f;
+}
+.parents > div > ul > li.active> a:focus{
+  background-color: #32903f;
+  color:white;
+}
+.panel-default>.panel-heading:active{
+  background-color: #32903f;
+}
+.panel-default>.panel-heading:focus{
+  background-color: #32903f;
+}
+.panel-default>.panel-heading:hover{
+  background-color: #32903f;
 }
